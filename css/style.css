@@ -212,13 +212,80 @@ text-shadow: 1px 1px 1px #464646;
 
 /*nav*/
 
+/*homepage*/
+
+.homepage {
+background: #2980b9;
+background: url(../images/banner.jpg);
+height: 320px;
+width: 100%;
+}
+
+.workspace {
+float: right;
+padding: 20px 40px 0 0;
+}
+
+.central-block {
+float: left;
+width: 645px;
+margin-top: 10px;
+border-top: 1px solid #dfdfdf;
+}
+
+.central-block .hp-item {
+font-size: 14px;
+padding: 10px 0 0 0; 
+float: left; 
+text-align: center; 
+width: 21%; 
+margin: 10px;
+}
+
+.sidebar {
+float: right;
+width: 334px;
+margin: 10px 0 0 0;
+border-left: 1px solid #dfdfdf;
+border-top: 1px solid #dfdfdf;
+text-align: left;
+}
+
+.sidebar .newsline {
+width: 300px;
+margin: 20px 0 10px 10px;
+background: #fff;
+border-radius: 4px 4px 4px 4px;
+border: 1px solid #dfdfdf;
+padding: 10px;
+}
+
+.sidebar .newsline h3 {
+padding: 10px 0;
+}
+
+.sidebar img {
+width: 320px;
+float: right;
+border: 1px solid #dfdfdf;
+border-radius: 4px;
+margin: 20px 0 10px 10px;
+}
+
+.txt {
+text-align: justify;
+margin: 7px;
+}
+
+/*homepage*/
+
 /*contacts*/
 
 .contactform {
 position: absolute;
 margin: 20px 0 0 0;
 background: #fff;
-width: 310px;
+width: 320px;
 height: 350px;
 z-index: 1;
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -250,14 +317,16 @@ border: 1px solid #ddd;
 border-radius: 4px;
 margin-top: 5px;
 padding: 0px 0px 0px 5px;
+font-family: 'Roboto';
+font-size: 13px;
 }
 
 #contacts textarea {
 height: 60px;
-font-family: 'Roboto';
 }
 
 #contacts input[type=submit] {
+float: right;
 background: #2980b9;
 width: 100px;
 height: 30px;
@@ -352,6 +421,38 @@ nav li.active a, nav li a:hover {
 text-shadow: none;
 }
 
+
+.central-block {
+float: none;
+width: 100%;
+}
+
+.central-block .hp-item {
+width: 18%; 
+margin: 25px;
+}
+
+.sidebar {
+float: none;
+width: 100%;
+border-left: none;
+}
+
+.sidebar .newsline {
+float: left;
+width: 46%;
+margin: 20px 0 10px 10px;
+}
+
+.gpartners {
+float: right;
+width: 46%;
+}
+
+.sidebar img {
+float: none;
+}
+
 .contactform {
 margin-left: 20px;
 }
@@ -384,6 +485,15 @@ header .right {
 width: 40%;
 }
 
+.central-block .hp-item {
+width: 23%; 
+}
+
+.sidebar img {
+width: 240px;
+}
+
+
 .not-found img {
 padding: 100px 175px 10px 175px;
 }
@@ -398,6 +508,10 @@ width: 275px;
 
 header .right {
 width: 200px;
+}
+
+.workspace {
+display: none;
 }
 
 }
@@ -420,6 +534,25 @@ display: none;
 
 .language-versions {
 display: none;
+}
+
+.central-block .hp-item {
+width: 33%; 
+}
+
+.sidebar .newsline {
+clear: left;
+float: none;
+width: 90%;
+}
+
+.gpartners {
+float: none;
+width: 100%;
+}
+
+.sidebar img {
+width: 360px;
 }
 
 #map {
@@ -450,6 +583,14 @@ display: none;
 
 .language-versions {
 display: none;
+}
+
+.sidebar .newsline {
+width: 85%;
+}
+
+.sidebar img {
+width: 275px;
 }
 
 #map {
