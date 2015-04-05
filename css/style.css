@@ -242,6 +242,11 @@ width: 21%;
 margin: 10px;
 }
 
+.central-block .only-tablets {
+display: none;
+}
+
+
 .sidebar {
 float: right;
 width: 334px;
@@ -323,6 +328,7 @@ font-size: 13px;
 
 #contacts textarea {
 height: 60px;
+resize: none;
 }
 
 #contacts input[type=submit] {
@@ -489,6 +495,14 @@ width: 40%;
 width: 23%; 
 }
 
+.central-block .only-tablets {
+display: block;
+}
+
+.no-tablets {
+display: none;
+}
+
 .sidebar img {
 width: 240px;
 }
@@ -538,6 +552,14 @@ display: none;
 
 .central-block .hp-item {
 width: 33%; 
+}
+
+.central-block .only-tablets {
+display: none;
+}
+
+.no-tablets {
+display: block;
 }
 
 .sidebar .newsline {
