@@ -1,9 +1,56 @@
+--- ✄ ------------------------------
 // ctrl + enter = new task
 // ctrl + d = toggle task as completed
 // alt + c = toggle task as canceled
+--- ✄ ------------------------------
 
-✔ resposive menu @done (15-04-02 10:35)
-✔ responsive map in the contact page @done (15-04-04 18:45)
-✔ homepage banner @done (15-04-04 23:43)
-✔ homepage services @done (15-04-04 23:43)
+Homepage:
+✔ navigation menu @done (15-04-02 10:35)
+☐ callback
+✔ banner @done (15-04-04 23:43)
+✔ services @done (15-04-04 23:43)
+☐ information about company
+☐ company advantages
+✔ newsline @done (15-04-10 18:40)
+☐ google partners pic
+☐ where we works pic
+☐ footer
+
+News:
+☐ newsline
+☐ first "we are open" news
+☐ news page style
+☐ social media icons
+
+Services:
+
+Portfolio:
+
+Testimonials:
+
+Team:
+
+Job:
+
+About:
+☐ information
+
+Contact:
+✔ google map @done (15-04-04 18:45)
+✔ contact form @done (15-04-04 20:45)
+
+404 Not Found Page:
+✔ simple page @done (15-04-10 18:49)
+
+Where We Work Page:
+☐ description
+☐ world map
+☐ europe map
+☐ russian map
+☐ united states map
+
+Other:
 ☐ private policy page
+
+P.S.:
+☐ live chat
