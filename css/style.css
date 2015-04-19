@@ -37,6 +37,27 @@ font-size: 15px;
 font-weight: bold;
 }
 
+h5 {
+background: none repeat scroll 0 0 #fff;
+border: 1px solid #aaaaaa;
+width:158px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+float: left;
+padding: 5px;
+font-family: 'Roboto', Verdana, serif;
+font-size: 16px;
+font-weight: normal;
+color: #616161;
+cursor: pointer;
+}
+
+h5.tab-selected {
+background: #3498db;
+color: #fff;
+border: 1px solid #3498db;
+}
+
 a {
 text-decoration: none; 
 color: #2980b9;
@@ -46,6 +67,16 @@ p {
 text-decoration: none; 
 font-size: 15px; 
 color: #616161;
+}
+
+.title {
+text-align: center;
+margin: 30px 0 0 0;
+}
+
+.breadcrumbs {
+text-align: left;
+margin: 20px 0;
 }
 
 .wrapper {
@@ -346,6 +377,20 @@ border-radius: 4px;
 
 /*contacts*/
 
+/*where we works*/
+
+.map {
+position: absolute;
+z-index: 0;
+top: 345px;
+}
+
+.red {
+color: #dc4834;
+}
+
+/*where we works*/
+
 /*404*/
 
 .not-found {
@@ -376,11 +421,11 @@ width: 100%;
 }
 
 header .left {
-width: 455px;
+width: 445px;
 }
 
 header .right {
-width: 190px;
+width: 220px;
 }
 
 .logo{
