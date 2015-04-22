@@ -20,7 +20,7 @@ color: #616161;
 h2 {
 font-size: 18px; 
 font-weight: bold;
-color: #fff;
+color: #616161;
 margin-top: 20px;
 }
 
@@ -35,6 +35,7 @@ h4 {
 text-decoration: none; 
 font-size: 15px; 
 font-weight: bold;
+margin: 10px 0;
 }
 
 h5 {
@@ -314,6 +315,66 @@ margin: 7px;
 }
 
 /*homepage*/
+
+/*services*/
+
+.solution {
+width: 200px;
+height: 300px;
+border-radius: 5px;
+}
+
+.round {
+width: 100px;
+height: 100px;
+background: #fff;
+border-radius: 50%;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 0px;
+}
+
+.round img {
+width: 34px;
+height: 34px;
+margin-top: 34px;
+margin-left: 33px;
+margin-right: 33px;
+}
+
+.price {
+text-align: center;
+color: #fff;
+font-family: 'Roboto', Verdana, serif;
+font-size: 18px;
+font-weight: bold;
+text-shadow: 1px 1px 0px #616161, 0 0 2px white;
+margin-bottom: 7px;
+}
+
+.oldprice {
+text-align: center;
+color: #fff;
+font-family: 'Roboto', Verdana, serif;
+font-size: 16px;
+font-weight: normal;
+text-decoration: line-through;
+}
+
+.item4 {
+font-size: 14px;
+font-family: 'Roboto', Verdana, serif;
+color: #2980b9;
+padding-bottom: 30px; 
+padding-top: 20px;
+float: left; 
+text-align: center; 
+width: 22%; 
+margin: 14px;
+}
+
+/*services*/
+
 
 /*contacts*/
 
