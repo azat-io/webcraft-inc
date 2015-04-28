@@ -3,10 +3,8 @@
 
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
-<meta name="HandheldFriendly" content="true" />
-<meta name="MobileOptimized" content="width" />
 
 <title>WebCraft Inc.</title>
 
@@ -17,6 +15,25 @@
 <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
 
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen">
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.nicescroll.js"></script>
+
+<script> 
+$(document).ready(function() {
+$("html").niceScroll({
+background: '#aed6ff',
+cursorcolor: '#3498db',
+cursorborder: '1px solid #2d8ac8',
+scrollspeed: 30,
+mousescrollstep:60,
+cursorwidth: '3px',
+boxzoom:true,
+autohidemode:false,
+});
+});
+
+</script>
 
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 
@@ -125,7 +142,6 @@ url(../fonts/museo.otf) format("opentype");
 </div>
 </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../js/touch-menu.js"></script>
 
 <div class="wrapper">

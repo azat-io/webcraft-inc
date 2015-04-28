@@ -16,8 +16,24 @@
 
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" >
 
-<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
 
+<script> 
+$(document).ready(function() {
+$("html").niceScroll({
+background: '#ddd',
+cursorcolor: '#3498db',
+cursorborder: '1px solid #3498db',
+scrollspeed: 30,
+mousescrollstep:60,
+cursorwidth: '3px',
+boxzoom:true,
+autohidemode:false,
+});
+});
+
+</script>
 
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 
