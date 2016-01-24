@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: calc(var(--fontSize)*2);
+  font-size: calc(var(--fontSize)*2.2);
 }
 
 h2 {
@@ -267,7 +267,7 @@ h6 {
 
 @media (width >= 34.375em) {
   h1 {
-    font-size: calc(var(--fontSize)*2.4);
+    font-size: calc(var(--fontSize)*2.2);
   }
 
   h2 {
@@ -333,6 +333,36 @@ header {
   }
 }
 
+@media (width >= 730px) {
+  header {
+    .col-6 {
+      float: left;
+      width: calc(var(--fullWidth)/12*6);
+    }
+  }
+}
+
+@media (width < 730px) {
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .container {
+      width: 387px;
+    }
+    a {
+      text-align: center;
+      margin: 15px auto 10px auto;
+    }
+    button {
+      float: none;
+    }
+    .en {
+      display: none;
+    }
+  }
+}
+
 /* 2.1 Menu
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -349,5 +379,72 @@ nav {
       line-height: 36px;
       margin: 0 20px 0 12px;
     }
+  }
+}
+
+#touch-menu {
+  display: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #fff;
+  background: #3498db;
+}
+
+@media (width < 942px) {
+  #touch-menu {
+    display: block;
+  }
+  nav {
+    display: none;
+    .container {
+      margin: 0;
+      padding: 0;
+      background: #f;
+    }
+    ul li {
+      display: block;
+      background: #f;
+      color: var(--colorBlue);
+      margin: 0;
+      padding-left: 23px;
+      margin: * 20px;
+      border-bottom: 1px solid #ddd;
+      &:hover, &:active {
+        color: color(var(--colorBlue) blackness(50%));
+      }
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+/* 2.1 Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner {
+  background: var(--colorBlue);
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px *;
+  p {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    color: #f;
+    padding: 20px 50px;
+    text-shadow: 1px 1px 2px black;
+  }
+  img {
+    display: block;
+    float: right;
+    image-size: responsive;
+  }
+}
+
+@media (width <= 991px) {
+  .banner p {
+    display: none;
   }
 }
