@@ -9,6 +9,7 @@ var cssNext = require('postcss-cssnext');
 var focus = require('postcss-focus');
 var gulp = require('gulp');
 var imageOp = require('gulp-image-optimization');
+var inlineSVG = require('postcss-inline-svg');
 var jade = require('gulp-jade');
 var nano = require('gulp-cssnano');
 var postcss = require('gulp-postcss');
@@ -64,6 +65,7 @@ gulp.task('postcss', function () {
     size,
     zindex,
     responsiveImages,
+    inlineSVG,
     clearFix,
     px2Rem,
     cssNext({
