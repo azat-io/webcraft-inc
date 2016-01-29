@@ -11,12 +11,13 @@ var gulp = require('gulp');
 var imageOp = require('gulp-image-optimization');
 var inlineSVG = require('postcss-inline-svg');
 var jade = require('gulp-jade');
+var lost = require('lost');
 var nano = require('gulp-cssnano');
 var postcss = require('gulp-postcss');
 var precss = require('precss');
 var propertySorter = require('css-property-sorter');
 var px2Rem = require('postcss-pxtorem');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var responsiveImages = require('postcss-responsive-images');
 var short = require ('postcss-short');
 var size = require('postcss-size');
@@ -76,6 +77,7 @@ gulp.task('postcss', function () {
   ];
   return gulp.src('src/css/*.css')
     .pipe(postcss(processors))
+    .pipe(lost())
     .pipe(uncss({
         html: ['dist/index.html']
     }))
@@ -114,7 +116,7 @@ gulp.task('images', function(cb) {
 gulp.task('server', function() {
   browserSync.init({
     server: {
-      baseDir: "dist"
+      baseDir: 'dist'
     },
     open: false
   });

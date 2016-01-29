@@ -5,7 +5,6 @@
 1.1 Grid
 1.2 Typography
 2.0 Header
-2.1 Menu
 */
 
 
@@ -313,24 +312,6 @@ header {
     font-weight: bold;
     margin-top: 5px;
   }
-  button {
-    display: block;
-    float: right;
-    color: var(--colorBlue);
-    border: 0;
-    border-radius: 5px;
-    padding: 6px 7px 4px 7px;
-    background: #f;
-    margin: 7px auto;
-    font-size: 14px;
-    outline: 0;
-  }
-  .en {
-    background: svg-load(../svg/en.svg);
-    size: 27px;
-    float: right;
-    margin: 5px 7px 0 0;
-  }
 }
 
 @media (width >= 730px) {
@@ -354,97 +335,5 @@ header {
       text-align: center;
       margin: 15px auto 10px auto;
     }
-    button {
-      float: none;
-    }
-    .en {
-      display: none;
-    }
-  }
-}
-
-/* 2.1 Menu
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-nav {
-  background: #3498db;
-  color: #f;
-  ul {
-    padding: 0;
-    margin: 0;
-    li {
-      list-style-type: none;
-      display: inline-block;
-      cursor: pointer;
-      line-height: 36px;
-      margin: 0 20px 0 12px;
-    }
-  }
-}
-
-#touch-menu {
-  display: none;
-  padding: 10px 25px;
-  font-weight: bold;
-  color: #fff;
-  background: #3498db;
-}
-
-@media (width < 942px) {
-  #touch-menu {
-    display: block;
-  }
-  nav {
-    display: none;
-    .container {
-      margin: 0;
-      padding: 0;
-      background: #f;
-    }
-    ul li {
-      display: block;
-      background: #f;
-      color: var(--colorBlue);
-      margin: 0;
-      padding-left: 23px;
-      margin: * 20px;
-      border-bottom: 1px solid #ddd;
-      &:hover, &:active {
-        color: color(var(--colorBlue) blackness(50%));
-      }
-      &:last-child {
-        border-bottom: 0;
-      }
-    }
-  }
-}
-
-/* 2.1 Banner
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.banner {
-  background: var(--colorBlue);
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 20px *;
-  p {
-    font-weight: bold;
-    font-size: 42px;
-    text-align: center;
-    color: #f;
-    padding: 20px 50px;
-    text-shadow: 1px 1px 2px black;
-  }
-  img {
-    display: block;
-    float: right;
-    image-size: responsive;
-  }
-}
-
-@media (width <= 991px) {
-  .banner p {
-    display: none;
   }
 }
