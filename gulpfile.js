@@ -69,6 +69,7 @@ gulp.task('postcss', function () {
     inlineSVG,
     clearFix,
     px2Rem,
+    lost,
     cssNext({
       autoprefixer: 'ie >= 8, last 5 versions, > 2%'
     }),
@@ -77,7 +78,6 @@ gulp.task('postcss', function () {
   ];
   return gulp.src('src/css/*.css')
     .pipe(postcss(processors))
-    .pipe(lost())
     .pipe(uncss({
         html: ['dist/index.html']
     }))
