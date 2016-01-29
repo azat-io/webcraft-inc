@@ -1,1 +1,0 @@
-$(document).ready(function(){var e=$("#touch-menu"),n=$("nav");$(e).on("click",function(e){e.preventDefault(),n.slideToggle()}),$(window).resize(function(){var e=$(window).width();e>942&&n.is(":hidden")&&n.removeAttr("style")})});
